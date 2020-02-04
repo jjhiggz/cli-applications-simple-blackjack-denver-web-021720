@@ -19,6 +19,7 @@ def get_user_input
 end
 
 def end_game(total)
+  binding.pry
   puts "Sorry, you hit #{display_card_total(total)}. Thanks for playing!"
 end
 
