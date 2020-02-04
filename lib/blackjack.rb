@@ -12,7 +12,6 @@ def display_card_total(total)
 end
 
 def prompt_user
-
   puts "Type 'h' to hit or 's' to stay"# code #prompt_user here
 end
 
@@ -22,7 +21,7 @@ end
 
 def end_game(total)
   binding.pry
-  puts "Sorry, you hit #{display_card_total(total)}. Thanks for playing!"
+  puts "Sorry, you hit #{total}. Thanks for playing!"
 end
 
 def initial_round
